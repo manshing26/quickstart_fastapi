@@ -20,7 +20,7 @@ class Setting():
     PERMISSION = PERMISSION
     
     ## System Log
-    LOG_FILE_DEST = "log/system_log.log"
+    LOG_FILE_DEST = "logs/system_log.log"
     LOGGING_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
     LOGGING_LEVEL = logging.INFO
     LOGGING_MAX_BYTES = 1000*1024
